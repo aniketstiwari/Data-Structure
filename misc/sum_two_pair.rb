@@ -47,7 +47,12 @@ def pair_with_sum_x(arr, sum)
 			puts "#{sum} is available #{temp} #{arr[index]}"
 		end
 		hsh[arr[index]] = index
+		puts hsh
 	end
 end
 
 pair_with_sum_x([1, 4, 45, 6, 10, -8, 12], 16)
+
+# Time Complexity O(n)
+
+# Auxiliary Space: O(n) 
