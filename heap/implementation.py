@@ -20,10 +20,12 @@ li1 = [5, 7, 9, 4, 3]
 # initializing list 2
 li2 = [5, 7, 9, 4, 3]
  
+#print (heapq.heappushpop(li1, 6))
 
-print (heapq.heappushpop(li1, 6))
+#print(li1)
 
-print(li1)
+#print (heapq.heapreplace(li2, 2))
 
+print(heapq.nlargest(3, li1))
 
-print (heapq.heapreplace(li2, 2))
+print(heapq.nsmallest(3, li1))
